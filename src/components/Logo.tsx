@@ -2,7 +2,7 @@ export default function Logo({ className = "w-[160px] h-[40px]" }: { className?:
   return (
     <svg 
       className={className} 
-      viewBox="0 0 160 40" 
+      viewBox="0 0 180 40" 
       fill="none" 
       xmlns="http://www.w3.org/2000/svg"
     >

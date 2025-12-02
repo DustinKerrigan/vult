@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="none">
+  <!-- Main V shape -->
+  <path 
+    d="M6 8L16 24L26 8" 
+    stroke="#1d7ce3" 
+    stroke-width="2.5" 
+    stroke-linecap="round" 
+    stroke-linejoin="round"
+  />
+  
+  <!-- System connection nodes -->
+  <circle cx="6" cy="8" r="1.8" fill="#1d7ce3" />
+  <circle cx="26" cy="8" r="1.8" fill="#1d7ce3" />
+  <circle cx="16" cy="24" r="1.8" fill="#1d7ce3" />
+
+  <!-- Additional tech lines -->
+  <line x1="6" y1="8" x2="3" y2="5" stroke="#1d7ce3" stroke-width="1.8" stroke-linecap="round" />
+  <line x1="26" y1="8" x2="29" y2="5" stroke="#1d7ce3" stroke-width="1.8" stroke-linecap="round" />
+  <line x1="16" y1="24" x2="16" y2="28" stroke="#1d7ce3" stroke-width="1.8" stroke-linecap="round" />
+
+  <circle cx="3" cy="5" r="1.2" fill="#1d7ce3" />
+  <circle cx="29" cy="5" r="1.2" fill="#1d7ce3" />
+  <circle cx="16" cy="28" r="1.2" fill="#1d7ce3" />
+</svg>
