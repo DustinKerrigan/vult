@@ -16,7 +16,7 @@ export default function ContactForm() {
       message: data.get('message')
     });
     try {
-    await fetch('http://136.114.245.138:5001/api/contact', {
+    await fetch('https://api.vultsystems.com/api/contact', {
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
             body: JSON.stringify({
